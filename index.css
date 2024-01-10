@@ -1,0 +1,69 @@
+body {
+    background-color: #101017;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+#box1{
+  margin-left: 123px;
+  width:751px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:0px;
+  padding:0px;
+  /* border:2px solid Tomato; */
+
+}
+
+#box1 h1,
+#box1 p {
+  margin: 0;
+  padding: 0;
+}
+
+#box1i{
+  display: flex;
+  flex-direction: row;
+  padding-top: 58px;
+  align-items: center;
+  
+}
+
+#name{
+  color:#079211;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+ 
+}
+
+#work{
+  color:white;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94px;
+  margin-bottom: 10px;
+}
+
+#info{
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+color:#808080;
+width: 550px;
+}
+
+#button{
+  background-color: #079211;
+  width:80px;
+  height: 38px;
+  margin-right: 20px;
+  color:white;
+  border: 0px;
+}
+  
