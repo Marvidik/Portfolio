@@ -257,11 +257,29 @@ width:457px;
   flex-direction: row;
   align-items: center;
   margin-top: 16px;
-  margin-bottom: 10px;
+
 }
 
-#box4i{
-  align-self: center;
+#box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Optional: This ensures the container takes the full height of the viewport */
 }
 
+#box4i {
+  text-align: center;
+}
 
+#client {
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+#client-comment {
+  width: 555px;
+  text-align: center;
+  color: #808080;
+
+}
