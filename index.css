@@ -70,7 +70,7 @@ width: 550px;
 
 #box2{
   margin-left: 123px;
-  width:751px;
+  margin-right: 100px;
   flex-direction: column;
   align-items: flex-start;
   gap:0px;
@@ -81,12 +81,19 @@ width: 550px;
 #box2i{
   flex-direction: row;
   display: flex;
-  justify-content:flex-end;
+  justify-content:space-between;
 }
 
 #box2ii{
   height: 41px;
   width: 350px;
+  align-self: flex-start;
+}
+
+#box2iii{
+  display:flex;
+  flex-direction: row;
+  
 }
 
 #experience{
@@ -96,5 +103,52 @@ font-style: normal;
 font-weight: 700;
 line-height: 56px;
 width:457px;
+
 }
+
+#skills{
+  height: 336px;
+  width:33.33%;
+  background-color: #313131;
+  margin-right:20px;
+  border-bottom: 5px solid #079211;
+ 
+}
+
+#circle{
+  height: 30px;
+  width:30px;
+  border-radius: 15px;
+  background-color: #079211;
+  position:relative;
+  top:50px;
+  left: 45px;
+}
+
+#svg{
+  position:relative;
+  top:68px;
+  left: 25px;
+  z-index: 1;
+}
+
+#content{
+  position:relative;
+  top:46px;
+  left: 25px;
   
+}
+
+#talent{
+  color:white;
+  font-weight: 400;
+}
+
+#talent2{
+  width:90%;
+  color:#808080;
+}
+
+#box3{
+  background-color: #313131;
+}
