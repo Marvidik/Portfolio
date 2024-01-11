@@ -11,9 +11,9 @@ body {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap:0px;
   padding:0px;
   /* border:2px solid Tomato; */
+  
 
 }
 
@@ -65,5 +65,36 @@ width: 550px;
   margin-right: 20px;
   color:white;
   border: 0px;
+}
+
+
+#box2{
+  margin-left: 123px;
+  width:751px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:0px;
+  padding:0px;
+  /* border:2px solid Tomato; */ 
+}
+
+#box2i{
+  flex-direction: row;
+  display: flex;
+  justify-content:flex-end;
+}
+
+#box2ii{
+  height: 41px;
+  width: 350px;
+}
+
+#experience{
+  color:white;
+  font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
+width:457px;
 }
   
