@@ -220,7 +220,7 @@ width:457px;
   gap:0px;
 }
 .grid-item {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  
   font-size: 30px;
   text-align: center;
   padding:0px;
@@ -247,7 +247,7 @@ width:457px;
   text-align: start;
   color:#079211;
   margin-left: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   margin-right: 0px;
   margin-top: 0px;
 }
@@ -265,21 +265,116 @@ width:457px;
   align-items: center;
   justify-content: center;
   height: 100vh; /* Optional: This ensures the container takes the full height of the viewport */
+  flex-direction: column;
 }
 
 #box4i {
   text-align: center;
 }
 
+#box4b{
+  display:flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#box4c{
+  display:flex;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+#name2{
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  color:white;
+
+
+
+
+}
+
+
+#client-comment2{
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  color:#808080;
+}
 #client {
   color: white;
   font-size: 46px;
   font-weight: 700;
 }
 
+
+
 #client-comment {
   width: 555px;
   text-align: center;
   color: #808080;
+
+}
+
+
+#box5{
+  display:flex;
+  background-color:#0A0A0F;
+  height: 213px;
+  width:100%; 
+  align-items: normal;
+  margin-bottom: 0px;
+  
+  
+}
+
+
+#box5a{
+  display:flex;
+  height: 213px;
+  width:100%; 
+  border-right: 5px solid;
+  border-color: #079211;
+  margin-left: 113px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;;
+ 
+}
+
+#contact-section-text{
+  color:white;
+  font-weight: 700;
+  font-size: 46px;
+  margin:0px;
+}
+
+
+ #box6{
+  display:flex;
+  height: 280px;
+  width:100%;
+  background-color: #050507;
+  margin-top: 0px;
+  padding-top: 50px;
+  justify-content: space-between;
+ }
+
+ #box6a {
+  display: flex;
+  flex-direction: column;
+  margin-left: 113px;
+  justify-content: space-between;
+  height: 260px;
+  width:100%;
+}
+
+#box6b{
+  display:flex;
+  flex-direction: column;
+  margin-right: 113px;
 
 }
